@@ -41,7 +41,6 @@ parallel-web-scraper
 1. Clone the repository:
    ```
    git clone https://github.com/chirag412vijayvergiya/WebScrapper-DC
-   cd parallel-web-scraper
    ```
 
 2. Install the required dependencies:
