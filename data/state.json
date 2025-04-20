@@ -1,0 +1,119 @@
+{
+  "workers": {
+    "b1f6d54e-4040-4cdd-84b1-1cd09c0d145c": {
+      "status": "available",
+      "last_heartbeat": "2025-04-09 12:16:12"
+    },
+    "3f3b6ed9-fb6a-43b0-923d-c681ee932ca2": {
+      "status": "available",
+      "last_heartbeat": "2025-04-09 12:16:12"
+    }
+  },
+  "tasks": {
+    "pending": [],
+    "active": [],
+    "completed": [
+      {
+        "id": "7f5117a1-3440-476c-a055-8902ff7d3f8e",
+        "url": "https://yatratrip.vercel.app",
+        "priority": 10,
+        "status": "completed",
+        "created_at": "2025-04-09 11:36:22.262169",
+        "completed_at": "2025-04-09 11:37:49.082017",
+        "result": {
+          "title": "Welcome | The YatraTrip",
+          "links": 12,
+          "images": 3
+        },
+        "error": null,
+        "assigned_worker": null
+      },
+      {
+        "id": "34ff1e93-0e86-4c7f-b408-fd6cfd746abf",
+        "url": "https://jeevan-frontend.vercel.app/home",
+        "priority": 5,
+        "status": "completed",
+        "created_at": "2025-04-09 11:34:36.337706",
+        "completed_at": "2025-04-09 11:37:49.503855",
+        "result": {
+          "title": "Jeeven Hospital",
+          "links": 0,
+          "images": 0
+        },
+        "error": null,
+        "assigned_worker": null
+      },
+      {
+        "id": "73b6937b-1d85-4e56-a6b9-5bbfa0ebe623",
+        "url": "https://nmims-mess-menu.vercel.app",
+        "priority": 4,
+        "status": "completed",
+        "created_at": "2025-04-09 11:35:27.802972",
+        "completed_at": "2025-04-09 11:37:49.774576",
+        "result": {
+          "title": "Mess Menu",
+          "links": 0,
+          "images": 0
+        },
+        "error": null,
+        "assigned_worker": null
+      },
+      {
+        "id": "431d856b-a3b0-4688-8e82-ccf089bf1965",
+        "url": "https://example.com",
+        "priority": 1,
+        "status": "completed",
+        "created_at": "2025-04-09 11:33:29.474634",
+        "completed_at": "2025-04-09 11:37:50.941415",
+        "result": {
+          "title": "Example Domain",
+          "links": 1,
+          "images": 0
+        },
+        "error": null,
+        "assigned_worker": null
+      }
+    ],
+    "failed": [
+      {
+        "id": "2764725f-9f4c-4d89-866c-33ab057f9841",
+        "url": "https://en.wikipedia.org/wiki/Web_scraping",
+        "priority": 1,
+        "status": "failed",
+        "created_at": "2025-04-09 11:33:29.474660",
+        "completed_at": "2025-04-09 11:37:50.827784",
+        "result": null,
+        "error": "maximum recursion depth exceeded",
+        "assigned_worker": null
+      },
+      {
+        "id": "91506f66-9d4b-4e21-8ad2-ea68b54f3605",
+        "url": "https://github.com/trending",
+        "priority": 1,
+        "status": "failed",
+        "created_at": "2025-04-09 11:33:29.474673",
+        "completed_at": "2025-04-09 11:37:52.661924",
+        "result": null,
+        "error": "maximum recursion depth exceeded",
+        "assigned_worker": null
+      },
+      {
+        "id": "5b31ce36-33af-4ccf-a475-a2b9d4dbe57d",
+        "url": "https://news.ycombinator.com",
+        "priority": 1,
+        "status": "failed",
+        "created_at": "2025-04-09 11:33:29.474667",
+        "completed_at": "2025-04-09 11:37:52.681499",
+        "result": null,
+        "error": "maximum recursion depth exceeded",
+        "assigned_worker": null
+      }
+    ]
+  },
+  "stats": {
+    "pending": 0,
+    "active": 0,
+    "completed": 4,
+    "failed": 3
+  }
+}
