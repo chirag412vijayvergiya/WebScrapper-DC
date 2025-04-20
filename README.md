@@ -40,7 +40,7 @@ parallel-web-scraper
 ## Setup Instructions
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/parallel-web-scraper.git
+   git clone https://github.com/chirag412vijayvergiya/WebScrapper-DC
    cd parallel-web-scraper
    ```
 
